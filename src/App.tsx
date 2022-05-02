@@ -56,7 +56,7 @@ function App() {
   //if(isAuthenticated && data.length === 1 && initalFetch){
   if(data.length === 1 && initalFetch){
     console.log("INITIAL FETCH");
-    fetch("http://localhost:3000/data/").then(res => res.json()).then(result => {
+    fetch("http://localhost:8000/data/").then(res => res.json()).then(result => {
       result = result['array'];
       var dat = result.map((value: { [x: string]: any; })=>{
         value['image'] = value['image'].slice(14,16);

@@ -7,9 +7,9 @@
 
   background: #042330;
 }
-.cover-image {
+/* .cover-image {
   display: block;
-}
+} */
 .banner-Image {
   background-image: url("./stories/assets/undraw_Reading_re_29f8\ 1.png");
 }
@@ -179,10 +179,10 @@
 .account {
   float: right;
 }
-.headerImage {
+/* .headerImage {
   display: inline-block;
   width: 35%;
-}
+} */
 .avatar {
   display: inline;
   border-radius: 48%;

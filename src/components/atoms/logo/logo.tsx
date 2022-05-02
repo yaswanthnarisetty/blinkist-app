@@ -1,11 +1,33 @@
 import React from "react";
 import ImageFileLogo from "./../../../stories/assets/Blinkist.png";
-export const Logo = () => {
-    return (
-        <div>
-            <img src={ImageFileLogo} alt="logo Cover" />
+import { makeStyles } from "@mui/styles";
+
+
+const useStyles=makeStyles({
+
+    mlogo:{
+
+        height: '26px',
+        width: '124.09px',
+        left: '0px',
+        top: '0px',
+        borderRadius: '0px'
+        
+    }
+});
+interface Props{
+    
+}
+export const Logo = (props:Props) => {
+
+    const classes=useStyles();
+
+    return(
+
+        <div >
+        <img className={classes.mlogo} src={ImageFileLogo} alt='BlinkList' />
         </div>
-    )
+    );
 }
 
 /*
