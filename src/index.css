@@ -289,9 +289,9 @@
 body {
   margin: 0;
 }
-* {
+/* * {
   font-family: "Raleway";
-}
+} */
 .cardGrid {
   width: 100%;
   background-color: white;

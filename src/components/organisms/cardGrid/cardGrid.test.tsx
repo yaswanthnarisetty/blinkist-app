@@ -1,6 +1,5 @@
 import { BookCardInterface } from "../../molecules/cards/bookCards";
 import CardGrid from "./cardGrid";
-import i2 from './../../../stories/assets/i2.png'
 import { fireEvent, render, screen } from "@testing-library/react"
 
 describe("Card Grid",()=>{
