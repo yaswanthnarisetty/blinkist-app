@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651638116885" clover="3.2.0">
-  <project timestamp="1651638116885" name="All files">
-    <metrics statements="291" coveredstatements="106" conditionals="150" coveredconditionals="90" methods="89" coveredmethods="27" elements="530" coveredelements="223" complexity="0" loc="291" ncloc="291" packages="19" files="44" classes="44"/>
+<coverage generated="1651660177975" clover="3.2.0">
+  <project timestamp="1651660177976" name="All files">
+    <metrics statements="294" coveredstatements="113" conditionals="150" coveredconditionals="90" methods="89" coveredmethods="29" elements="533" coveredelements="232" complexity="0" loc="294" ncloc="294" packages="19" files="44" classes="44"/>
     <package name="src">
       <metrics statements="81" coveredstatements="0" conditionals="26" coveredconditionals="0" methods="20" coveredmethods="0"/>
       <file name="App.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/App.tsx">
@@ -203,23 +203,23 @@
       </file>
       <file name="coverImages.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/atoms/cover_images/coverImages.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="19" type="stmt"/>
         <line num="10" count="19" type="stmt"/>
-        <line num="11" count="19" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.logo">
-      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="logo.stories.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/atoms/logo/logo.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="17" count="0" type="stmt"/>
       </file>
       <file name="logo.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/atoms/logo/logo.tsx">
-        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.buttons">
@@ -266,20 +266,20 @@
       </file>
     </package>
     <package name="src.components.molecules.extendedNav">
-      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="extendednav.stories.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/extendedNav/extendednav.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="17" count="0" type="stmt"/>
       </file>
       <file name="extendednav.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/extendedNav/extendednav.tsx">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.navItems">
-      <metrics statements="15" coveredstatements="7" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="2"/>
+      <metrics statements="16" coveredstatements="7" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="2"/>
       <file name="navItems.stories.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/navItems/navItems.stories.tsx">
         <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="9" count="0" type="stmt"/>
@@ -292,7 +292,7 @@
         <line num="27" count="0" type="stmt"/>
       </file>
       <file name="navItems.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/navItems/navItems.tsx">
-        <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="2"/>
+        <metrics statements="8" coveredstatements="7" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="2"/>
         <line num="15" count="6" type="stmt"/>
         <line num="16" count="97" type="stmt"/>
         <line num="17" count="97" type="cond" truecount="2" falsecount="0"/>
@@ -300,6 +300,7 @@
         <line num="20" count="97" type="stmt"/>
         <line num="22" count="4" type="cond" truecount="1" falsecount="1"/>
         <line num="31" count="6" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.searchBar">
@@ -340,22 +341,24 @@
       </file>
       <file name="banner.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/banner/banner.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.bookView">
-      <metrics statements="5" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="1"/>
       <file name="bookView.stories.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/bookView/bookView.stories.tsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
       </file>
       <file name="bookView.tsx" path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/bookView/bookView.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <metrics statements="5" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="1"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="0" type="cond" truecount="1" falsecount="1"/>
       </file>
     </package>
     <package name="src.components.organisms.cardGrid">

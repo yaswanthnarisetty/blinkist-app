@@ -1,62 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/buttons/buttons.test.tsx">
-    <testCase name="Button Text on Button" duration="41"/>
-    <testCase name="Button Icons" duration="37"/>
-    <testCase name="Button Button Fired" duration="14"/>
+    <testCase name="Button Text on Button" duration="37"/>
+    <testCase name="Button Icons" duration="44"/>
+    <testCase name="Button Button Fired" duration="16"/>
   </file>
   <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/bookView/bookView.test.tsx">
-    <testCase name="BookView Text on Books" duration="126"/>
-  </file>
-  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/navItems/navItems.test.tsx">
-    <testCase name="Nav Items isPresent" duration="85"/>
-    <testCase name="Nav Items onclick" duration="35"/>
+    <testCase name="BookView Text on Books" duration="129"/>
   </file>
   <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/cards/bookCards.test.tsx">
-    <testCase name="Book Cards first" duration="99"/>
-    <testCase name="Book Cards onAdd Button" duration="34"/>
-    <testCase name="Book Cards onReadAgainButton" duration="22"/>
-    <testCase name="Book Cards onReadAgainButton click" duration="25"/>
-    <testCase name="Book Cards onFinishButton click" duration="23"/>
-    <testCase name="Book Cards finished" duration="21"/>
+    <testCase name="Book Cards first" duration="90"/>
+    <testCase name="Book Cards onAdd Button" duration="36"/>
+    <testCase name="Book Cards onReadAgainButton" duration="20"/>
+    <testCase name="Book Cards onReadAgainButton click" duration="21"/>
+    <testCase name="Book Cards onFinishButton click" duration="19"/>
+    <testCase name="Book Cards finished" duration="22"/>
   </file>
   <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/header/header.test.tsx">
-    <testCase name="Header Text" duration="88"/>
-    <testCase name="Header Explore" duration="90"/>
-    <testCase name="Header Explore Click Option" duration="28"/>
-    <testCase name="Header My Library Click" duration="24"/>
-  </file>
-  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/banner/banner.test.tsx">
-    <testCase name="Banner Image" duration="32"/>
-    <testCase name="Banner Text in the Banner" duration="15"/>
-  </file>
-  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/atoms/cover_images/coverImage.test.tsx">
-    <testCase name="Cover Image Alt Text" duration="33"/>
-    <testCase name="Cover Image Image Tag" duration="60"/>
-  </file>
-  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/tabs/tabs.test.tsx">
-    <testCase name="Tabs Check for tabs" duration="39"/>
-    <testCase name="Tabs onclick function" duration="12"/>
+    <testCase name="Header Text" duration="100"/>
+    <testCase name="Header Explore" duration="100"/>
+    <testCase name="Header Explore Click Option" duration="21"/>
+    <testCase name="Header My Library Click" duration="22"/>
   </file>
   <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/cardGrid/cardGrid.test.tsx">
-    <testCase name="Card Grid Text Tests" duration="150"/>
-    <testCase name="Card Grid OnClick for Adding" duration="40"/>
-    <testCase name="Card Grid Onclick for reading again" duration="46"/>
+    <testCase name="Card Grid Text Tests" duration="135"/>
+    <testCase name="Card Grid OnClick for Adding" duration="51"/>
+    <testCase name="Card Grid Onclick for reading again" duration="33"/>
   </file>
-  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/searchBar/searchBar.test.tsx">
-    <testCase name="Search Bar Search Bar Placeholder Test" duration="58"/>
+  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/extendedNav/extendednav.test.tsx">
+    <testCase name="render the icon header text" duration="80"/>
+  </file>
+  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/navItems/navItems.test.tsx">
+    <testCase name="Nav Items isPresent" duration="48"/>
+    <testCase name="Nav Items onclick" duration="17"/>
+  </file>
+  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/atoms/logo/logo.test.tsx">
+    <testCase name="Blinklist image should be Blinklistlogo.png" duration="91"/>
+    <testCase name="Blinklist alt should be BlinkList" duration="33"/>
+  </file>
+  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/atoms/cover_images/coverImage.test.tsx">
+    <testCase name="Cover Image Alt Text" duration="27"/>
+    <testCase name="Cover Image Image Tag" duration="54"/>
   </file>
   <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/toolBar/toolbar.test.tsx">
-    <testCase name="ToolBar Text" duration="114"/>
-    <testCase name="ToolBar onClick" duration="57"/>
+    <testCase name="ToolBar Text" duration="126"/>
+    <testCase name="ToolBar onClick" duration="58"/>
+  </file>
+  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/searchBar/searchBar.test.tsx">
+    <testCase name="Search Bar Search Bar Placeholder Test" duration="50"/>
+  </file>
+  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/banner/banner.test.tsx">
+    <testCase name="Banner Image" duration="28"/>
+    <testCase name="Banner Text in the Banner" duration="20"/>
+  </file>
+  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/footer/footer.test.tsx">
+    <testCase name="Footer Text" duration="40"/>
   </file>
   <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/atoms/Typo/typo.test.tsx">
     <testCase name="Typo Typo Text" duration="21"/>
   </file>
   <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/atoms/avatar/avatar.test.tsx">
-    <testCase name="Avatar Avatar Present" duration="23"/>
+    <testCase name="Avatar Avatar Present" duration="21"/>
   </file>
-  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/organisms/footer/footer.test.tsx">
-    <testCase name="Footer Text" duration="36"/>
+  <file path="/home/yaswan/Downloads/Blinkist_Application_React-main (2) (1)/Blinkist_Application_React-main/src/components/molecules/tabs/tabs.test.tsx">
+    <testCase name="Tabs Check for tabs" duration="23"/>
+    <testCase name="Tabs onclick function" duration="10"/>
   </file>
 </testExecutions>
