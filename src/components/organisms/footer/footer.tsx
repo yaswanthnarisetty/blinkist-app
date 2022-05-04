@@ -3,7 +3,7 @@ import { Typo } from "../../atoms/Typo/typo"
 import imageFile from "./../../../stories/assets/logo.png"
 
 interface FooterInterface{}
-export const Footer = (props:FooterInterface)=>{
+export const Footer = (_props:FooterInterface)=>{
     return (
         <div className="footer">
             <div className="footerDivfirst">

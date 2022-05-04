@@ -18,7 +18,7 @@ const useStyles=makeStyles({
 interface Props{
     
 }
-export const Logo = (props:Props) => {
+export const Logo = (_props:Props) => {
 
     const classes=useStyles();
 

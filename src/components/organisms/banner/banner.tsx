@@ -1,6 +1,4 @@
 import { CoverImages } from "./../../atoms/cover_images/coverImages"
-// import { CoverImage } from "../../atoms/CoverImage/coverImage"
-// CoverImages
 import ImageFile from "./../../../stories/assets/undraw_Reading_re_29f8 1.png"
 
 

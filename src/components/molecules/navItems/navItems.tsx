@@ -29,6 +29,8 @@ const Nav = (props:NavItemInterface)=>{
 }
 
 Nav.defaultProps = { 
-    onClick : ()=>{},
+    onClick : ()=>{
+        return 'hi'
+    },
 };
 export default Nav;

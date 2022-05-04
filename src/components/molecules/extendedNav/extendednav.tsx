@@ -1,7 +1,5 @@
 import React from "react";
-//import UpdateIcon from "@material-ui/icons/Update";
 import RocketIcon from '@mui/icons-material/Rocket';
-//import "./styles.css";
 import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({

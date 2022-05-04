@@ -1,12 +1,11 @@
 import React from "react";
-import ImageFile from "./../../../Assets/images/cover_images/2.png";
 
-interface coverImagesInterface{
+interface CoverImagesInterface{
     url:string;
     class:string;
 }
 
-export const CoverImages = (props:coverImagesInterface) => {
+export const CoverImages = (props:CoverImagesInterface) => {
     var classVal = "cover-image "+props.class;
     return (
         <div>

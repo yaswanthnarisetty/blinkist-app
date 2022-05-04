@@ -23,9 +23,9 @@ export const BookView = (props:BookViewInterface)=>{
                 <div className="bookViewButtonDiv">
                     <div className="bookViewButton">
                         <div className="bookViewReadButton">
-                            <Button hasIcon={false} icon={""} text={"Read now"} onClick={props.onReadNowButtonClick?props.onReadNowButtonClick:()=>{}}/>
+                            <Button hasIcon={false} icon={""} text={"Read now"} onClick={props.onReadNowButtonClick?props.onReadNowButtonClick:()=>{return}}/>
                         </div>
-                        <Button hasIcon={false} icon={""} text={"Finished Reading"} onClick={props.onFinishedButtonClick?props.onFinishedButtonClick:()=>{}}/>
+                        <Button hasIcon={false} icon={""} text={"Finished Reading"} onClick={props.onFinishedButtonClick?props.onFinishedButtonClick:()=>{return}}/>
                         <div className="bookViewNav">
                             <Nav text={"Send to kindle"} iconLeft={false} iconRight={true} iconUrl={"arrow-forward"} extendedNav={false}/>
                         </div>
